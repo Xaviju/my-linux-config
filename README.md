@@ -15,7 +15,7 @@ Antergos is a Linux distro based on [Arch Linux](https://www.archlinux.org/). Th
 
 #### How to install
 1. Download the latest [Antergos ISO](https://antergos.com/try-it/) file to your computer.
-1. If you are already using Linux, I would recommend [Etcher :point_right:](https://etcher.io/) to burn the ISO into a USB.
+1. If you are already using Linux, I would recommend [Etcher ](https://etcher.io/) to burn the ISO into a USB.
 1. Reboot your system and [select the USB as booting system](https://lifehacker.com/5991848/how-to-boot-from-a-cd-or-usb-drive-on-any-pc)
 1. Antergos will boot from your USB, ensure that you are connected to internet to update Antergos installer. If you are using WiFi, look for it it in the top left menu.
 1. Before installing it, you can test Antergos directly for the USB.
@@ -55,14 +55,14 @@ Antergos is a Linux distro based on [Arch Linux](https://www.archlinux.org/). Th
         1. Continue building **{name}**? -> Y
         1. Continue installing **{name}**? -> Y
 
-### Desktop Manager: Gnome [link :point_right:](https://www.gnome.org/gnome-3/)
+### Desktop Manager: Gnome [link ](https://www.gnome.org/gnome-3/)
 Gnome is my favourite desktop. It has the better user experience, stability and user interface. Is not as fast as other desktops, specially tiling window managers. its easy to use and has a huge community and amazing software. If you prioritize performance in your desktop over UX or UI, you should probably check [i3](https://i3wm.org/)
 
-1. Gnome cheat sheet [link :point_right:](https://wiki.gnome.org/Projects/GnomeShell/CheatSheet)
+1. Gnome cheat sheet [link ](https://wiki.gnome.org/Projects/GnomeShell/CheatSheet)
 1. GNOME Tweak Tool. Installed by default, allows you to edit advanced assets from your desktop, as the icons or the shell theme.
     1. Gnome Shell. The look and feel of your dektops. There are thousands out there. I use `Numix Frost`
     1. Icons. I use `Numix Squeare`. There are many icon sets (install on `~/.icons` and choose theme in the selector)
-1. GNOME extensions are plugins for your desktop. [link :point_right:](https://extensions.gnome.org/)
+1. GNOME extensions are plugins for your desktop. [link ](https://extensions.gnome.org/)
     1. Extensions can be installed, activated and removed from your browser `https://wiki.gnome.org/Projects/GnomeShellIntegrationForChrome/Installation#Arch_Linux`
         1. AlternateTab `https://extensions.gnome.org/extension/15/alternatetab/`
         1. Applications menu `https://extensions.gnome.org/extension/6/applications-menu/`
@@ -70,40 +70,40 @@ Gnome is my favourite desktop. It has the better user experience, stability and 
         1. Native Window placement `https://extensions.gnome.org/extension/18/native-window-placement/`
         1. Removable Drive Menu `https://extensions.gnome.org/extension/7/removable-drive-menu/`
         1. User Themes `https://extensions.gnome.org/extension/19/user-themes/`
-1. Advanced Gnome [link :point_right:](https://wiki.archlinux.org/index.php/GNOME)
+1. Advanced Gnome [link ](https://wiki.archlinux.org/index.php/GNOME)
 
 ### Terminal
-1. Install VIM editor [link :point_right:](https://www.vim.org/)
-1. ZSH [link :point_right:](https://wiki.archlinux.org/index.php/zsh) 
+1. Install VIM editor [link ](https://www.vim.org/)
+1. ZSH [link ](https://wiki.archlinux.org/index.php/zsh) 
     1. Select default options when installing
-    1. Set as your default shell on reload [link :point_right:](https://wiki.archlinux.org/index.php/Command-line_shell#Changing_your_default_shell)
+    1. Set as your default shell on reload [link ](https://wiki.archlinux.org/index.php/Command-line_shell#Changing_your_default_shell)
 
         ```
         chsh -s /usr/bin/zsh
         ```
 
-1. Antigen. The plugin manager for ZSH [link :point_right:](https://github.com/zsh-users/antigen) 
+1. Antigen. The plugin manager for ZSH [link ](https://github.com/zsh-users/antigen) 
     1. Install through `yaourt -S antigen-git`
         ```
         source /usr/share/zsh/share/antigen.zsh
         ```
-    1. Extensions `antigen bundle {pluginName}` [link:point_right:](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
-        1. Oh-my-zsh [link :point_right:](https://github.com/robbyrussell/oh-my-zsh)
-        1. themes [link :point_right:](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)
-        1. nvm [link :point_right:](https://github.com/creationix/nvm)
-        1. z [link :point_right:](https://github.com/rupa/z)
+    1. Extensions `antigen bundle {pluginName}` [link](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
+        1. Oh-my-zsh [link ](https://github.com/robbyrussell/oh-my-zsh)
+        1. themes [link ](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)
+        1. nvm [link ](https://github.com/creationix/nvm)
+        1. z [link ](https://github.com/rupa/z)
     1. Log out and log in again to reload your terminal.
 
 
 ### GIT
-1. Install Git as Antigen extension[link :point_right:](https://github.com/zsh-users/antigen)
-1. Configure GIT [link :point_right:](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+1. Install Git as Antigen extension[link ](https://github.com/zsh-users/antigen)
+1. Configure GIT [link ](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 1. Generate an SSH key [link](https://help.github.com/articles/connecting-to-github-with-ssh/)
 1. Add the SSH key to github [link](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 1. Add the SSH key to gitlab [link](https://docs.gitlab.com/ee/ssh/)
 
 ### Fonts
-1. How to install fonts [link :point_right:](https://wiki.archlinux.org/index.php/Fonts)
+1. How to install fonts [link ](https://wiki.archlinux.org/index.php/Fonts)
 1. Also the Gnome fonts viewer (open the font and click on `install`)
 
 ### Browsers `sudo pacman -Ss {browser-name}`
