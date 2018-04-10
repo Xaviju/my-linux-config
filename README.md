@@ -1,7 +1,7 @@
 # Linux: from zero to front-end ready
 
 ## Introduction
-The goal of this repository is mainly oriented to keep detailed and updated instructions on what and how to install **my optimal minimum required linux system for front-end development**. It is also aimed to all the users which are interested in using linux, but feel insecure because all the myths about the Linux complexity
+The purpose of this repository is to keep detailed and updated instructions on what and how to install **my optimal minimum required linux system for front-end development**. It is also aimed to all the users which are interested in using linux, but feel insecure because all the myths about the Linux complexity
 
 ## Operating system
 
